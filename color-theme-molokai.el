@@ -106,6 +106,12 @@
      (woman-bold ((t (:foreground "#F92672"))))
      (woman-italic ((t (:foreground "#A6E22E"))))
      (woman-unknown ((t (:foreground "#66D9EF"))))
+     (isabelle-quote-face ((t (:foreground "#E6DB74"))))
+     (isabelle-quote-face ((t (:background "#1B1D1E"))))
+     (isabelle-string-face ((t (:foreground "#E6DB74"))))
+     (isabelle-string-face ((t (:background "#1B1D1E"))))
+     (proof-error-face ((t (:foreground "#D91919"))))
+     (proof-error-face ((t (:background "#1B1D1E"))))
      )))
 
 (provide 'color-theme-molokai)
