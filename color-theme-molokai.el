@@ -112,6 +112,16 @@
      (isabelle-string-face ((t (:background "#1B1D1E"))))
      (proof-error-face ((t (:foreground "#D91919"))))
      (proof-error-face ((t (:background "#1B1D1E"))))
+
+     (agda2-highlight-datatype-face ((t (:foreground "#FFFFFF"))))
+     (agda2-highlight-inductive-constructor-face ((t (:foreground "#FFFFFF"))))
+     (agda2-highlight-keyword-face ((t (:foreground "#62ADE3"))))
+     (agda2-highlight-module-face ((t (:foreground "#FFFFFF" :slant italic))))
+     (agda2-highlight-primitive-type-face ((t (:foreground "#FFFFFF" :weight bold))))
+     (agda2-highlight-function-face ((t (:foreground "#FFFFFF"))))
+     (agda2-highlight-operator-face ((t (:foreground "#FFFFFF"))))
+     (agda2-highlight-postulate-face ((t (:foreground "#FFFFFF" :slant italic))))
+     (agda2-highlight-primitive-face ((t (:foreground "#FFFFFF"))))
      )))
 
 (provide 'color-theme-molokai)
